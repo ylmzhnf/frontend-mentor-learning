@@ -19,9 +19,7 @@ This is a simple responsive card component that displays a QR code. The challeng
 ![QR Code Screenshot](./images/image-qr-code.png)
 
 ## 🔗 Live Demo
-
-<!-- You can update this when your project is live -->
-Coming soon via GitHub Pages
+[Click here to view the project](https://ylmzhnf.github.io/frontend-mentor-learning/01-qr-code-component/)
 
 ## 🛠️ Built With
 
