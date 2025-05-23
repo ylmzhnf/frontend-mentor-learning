@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Figtree", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: hsl(47, 88%, 63%);
+    
+}
+
+.blog-card{
+    width: 100%;
+    max-width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    border: 2px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px;
+    padding: 1rem;
+}
+
+.illustration{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    cursor: pointer;
+   
+}
+
+button:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease;
+}
+
+.blog-content{ 
+    margin:20px 0;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name{
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+.published{
+    color: hsl(0, 0%, 7%);
+}
+
+.blog-card h1:hover{
+    color: hsl(47, 88%, 63%);
+    transition: color 0.5s ease
+}
+
+@media (min-width:1440px) {
+    .blog-card{
+        max-width: 400px;
+    }
+    h1{
+        font-size: 1.95rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
