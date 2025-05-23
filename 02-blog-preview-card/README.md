@@ -4,7 +4,7 @@ This is a solution to the [Frontend Mentor - Blog Preview Card](https://www.fron
 
 ## 🔗 Live Site
 
-👉 [View Live Site]()
+👉 [View Live Site](https://ylmzhnf.github.io/frontend-mentor-learning/02-blog-preview-card/)
 
 ## 📌 About The Project
 
