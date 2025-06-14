@@ -5,12 +5,17 @@ This repository contains my solutions to Frontend Mentor challenges. Each projec
 ## 📁 Projects
 
 ### 1. QR Code Component
-- [Live Demo](https://your-username.github.io/frontend-mentor-learning/qr-code)
-- [Source Code](./qr-code)
+- [Live Demo](https://ylmzhnf.github.io/frontend-mentor-learning/01-qr-code-component/)
+- [Source Code](https://github.com/ylmzhnf/frontend-mentor-learning/tree/main/01-qr-code-component)
 
 ### 2. Product Preview Card
-- [Live Demo](https://your-username.github.io/frontend-mentor-learning/product-preview-card)
-- [Source Code](./product-preview-card)
+- [Live Demo](https://ylmzhnf.github.io/frontend-mentor-learning/02-blog-preview-card/)
+- [Source Code](https://github.com/ylmzhnf/frontend-mentor-learning/tree/main/02-blog-preview-card)
+
+
+### 3. Social Links Profile
+- [Live Demo] (https://ylmzhnf.github.io/frontend-mentor-learning/03-social-links-profile-main/index.html)
+- [Source Code] (https://github.com/ylmzhnf/frontend-mentor-learning/tree/main/03-social-links-profile-main)
 
 ## 🚀 Technologies Used
 - HTML & CSS
