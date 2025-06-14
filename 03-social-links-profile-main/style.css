@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.profil-card{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.profile-header img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: 90px;
+    width: 90px;
+}
+
+.header{
+    padding: 0.6rem;
+    
+}
+
+.social-links li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    background-color: hsl(0, 0%, 20%);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+
+h1{
+    font-weight: 700;
+    margin:1rem 0 0.8rem 0;
+
+}
+.tagline{
+    font-weight: 400;
+    font-size:0.9rem ;
+    margin-bottom: 2rem;
+}
+.location {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%); 
+    margin-bottom: 1.5rem;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+} 
+
+.social-links li:hover{
+    background-color: hsl(75, 94%, 57%); 
+    transform: scale(1.03);
+}
+
+.social-links li:hover a{
+   color: hsl(0, 0%, 8%); 
+}
+
+@media (min-width:1440px) {
+    .profil-card{
+        max-width: 400px;
+        padding: 1.5rem 1rem;
+    }
+    .social-links li{   
+        margin: 1rem 0;
+    }
+    .profile-header h1{
+        font-size: 2rem;
+    }
+    .tagline{
+        font-size: 1rem;
+    }
+}
