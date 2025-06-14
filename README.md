@@ -14,8 +14,8 @@ This repository contains my solutions to Frontend Mentor challenges. Each projec
 
 
 ### 3. Social Links Profile
-- [Live Demo] (https://ylmzhnf.github.io/frontend-mentor-learning/03-social-links-profile-main/index.html)
-- [Source Code] (https://github.com/ylmzhnf/frontend-mentor-learning/tree/main/03-social-links-profile-main)
+- [Live Demo](https://ylmzhnf.github.io/frontend-mentor-learning/03-social-links-profile-main/index.html)
+- [Source Code](https://github.com/ylmzhnf/frontend-mentor-learning/tree/main/03-social-links-profile-main)
 
 ## 🚀 Technologies Used
 - HTML & CSS
