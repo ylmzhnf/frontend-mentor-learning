@@ -7,7 +7,7 @@ The goal of the challenge is to build a user profile card with social media link
 
 ## 🔗 Live Site
 
-👉 [View Live Site](https://your-live-site-url.com)
+👉 [View Live Site](https://ylmzhnf.github.io/frontend-mentor-learning/03-social-links-profile-main/index.html)
 
 ---
 
@@ -43,7 +43,7 @@ It includes:
 
 ## 🖼️ Screenshots
 
-![Static Preview](./assets/images/social-links-screenshot.png)  
+![Static Preview](./assets/images/social-links-screenshot.png.png)  
 ![Hover State Preview](./assets/images/social-links-active-screenshot.png)
 
 ---
