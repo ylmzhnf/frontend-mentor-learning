@@ -22,8 +22,8 @@ This challenge helped me practice semantic HTML structure and responsive design 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Project on GitHub](https://github.com/ylmzhnf/frontend-mentor-learning/tree/main/05-product-preview-card-component-main)
+- Live Site URL: [View Live Site](https://ylmzhnf.github.io/frontend-mentor-learning/05-product-preview-card-component-main/)
 
 ## My process
 
