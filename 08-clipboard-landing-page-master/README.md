@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Project on GitHub](https://your-solution-url.com)
-- Live Site URL: [View Live Site](https://your-live-site-url.com)
+- Solution URL: [View Project on GitHub](https://github.com/ylmzhnf/frontend-mentor-learning/tree/main/08-clipboard-landing-page-master)
+- Live Site URL: [View Live Site](https://ylmzhnf.github.io/frontend-mentor-learning/08-clipboard-landing-page-master/)
 
 ## My process
 
