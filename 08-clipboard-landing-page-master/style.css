@@ -1,0 +1,299 @@
+:root{
+
+    --font: "Bai Jamjuree", sans-serif;
+
+    --green-500: hsl(171, 66%, 44%);
+    --blue-100: hsl(233, 100%, 69%);
+    --white: hsla(0, 0%, 97%, 0.95);;
+    --gray-700: hsl(210, 10%, 33%);
+    --gray-500: hsl(201, 11%, 66%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font);
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    background-color: var(--white);
+    text-align: center;
+}
+
+header, main,footer{
+    width: 100%;
+    max-width: 400px; 
+    padding: 0 1.5rem;
+}
+
+main{
+    padding-bottom: 0;
+}
+
+.title{
+    color: var(--gray-700);
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.sub-title{
+    color: var(--gray-700);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.info{
+    color: var(--gray-500);
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+section{
+    margin-top: 120px;
+}
+header{
+    padding-top: 100px;
+    margin-bottom: 150px;
+}
+header .logo{
+    margin-bottom: 50px;
+    padding: 4rem 0;
+}
+.download-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download-btn a{
+    width: 100%;
+    max-width: 300px;
+    color: var(--white);
+    padding: 0.8rem;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.download-btn a:first-child{
+    background-color: var(--green-500);
+    box-shadow: 0 5px hsl(171, 63%, 36%);
+}
+.download-btn a:last-child{
+    background-color: var(--blue-100);
+    box-shadow: 0 5px hsl(233, 60%, 56%)
+}
+
+.download-btn a:hover, .download-btn a:focus{
+   opacity: 0.7;
+}
+.download-btn a:active{
+    box-shadow: 0 2px currentColor;
+    transform: translateY(4px)
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.icon{
+    margin-bottom: 2rem;
+    width: 45px;
+}
+.workflow-feature .info {
+    margin-bottom: 0;
+}
+.workflow-feature{
+   margin-bottom: 40px;
+}
+
+
+.brand-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.brand-logo img{
+   max-width: 150px;
+    
+}
+
+
+footer{
+    padding: 40px 1.5rem;
+    margin-top: 120px;
+    background-color: hsl(30, 14%, 93%);
+}
+footer .logo{
+    width: 40px;
+   
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+ul li{
+    padding: 0.5rem 0;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: var(--gray-700);
+    transition: color 0.2s;
+}
+ul li a:hover,
+ul li a:focus {
+    cursor: pointer;
+    color: var(--green-500);
+}
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media (min-width: 1000px) {
+    body{
+        background-image: url(./images/bg-header-desktop.png);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    header,main,footer{
+        max-width:1440px;
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+    header{
+        padding-top: 100px;
+        margin-bottom: 120px;
+    }
+
+    header .head{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+
+    .download-btn{
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+    }
+    .download-btn a{
+        max-width: 220px;
+    }
+
+    .snippets {
+        max-width: 700px;
+        margin: 0 auto 5rem auto;
+    }
+    
+    .feature{
+        display: grid;
+        grid-template-columns: 1.3fr 0.7fr; 
+        align-self: center;
+        align-items: center;
+        gap: 120px;
+        margin: 0 auto 120px auto
+    }
+    .feature .image{
+        margin-left: -80px;
+        margin-bottom: 0;
+    }
+    .features{
+        text-align: left;
+        max-width: 400px;
+    }
+
+    .access-anywhere{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+
+    .workflow{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        grid-template-rows: auto auto;
+        max-width: 1040px;  
+        align-self: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 auto 120px auto;
+    }
+    .workflow> div{
+        grid-column: 1/4;
+    }
+    .workflow-feature {
+        margin-top: 0;
+    }
+
+
+    .brand-logo{
+        display: grid;
+        grid-template-columns: repeat(5 ,1fr);
+        grid-template-rows: auto;
+        max-width: 1040px;  
+        align-self: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 auto 120px auto;
+    }
+
+
+    .download{
+        max-width:700px;
+        margin: 0 auto 120px auto;
+    }
+
+
+    footer{
+        display: grid;
+        grid-template-columns: 0.2fr 1fr 0.3fr;
+        grid-template-rows: auto auto;
+        align-items: center;
+        width: 100%;
+        max-width: none;
+        padding: 40px 100px ;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto auto;
+        gap: 0;
+        margin: 0;
+        text-align: left;
+        padding-left: 60px;
+    }
+    .social-links{
+       justify-content: flex-end;
+       gap: 25px;
+    }
+}
